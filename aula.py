@@ -57,17 +57,25 @@
 
 # print("o imc e: ", imc)
 
-a = float(input( "digite o valor de a :"))
-b = float(input("digite o valor de b :" ))
-c = float(input( "digite o valor de c :"))
+# a = float(input( "digite o valor de a :"))
+# b = float(input("digite o valor de b :" ))
+# c = float(input( "digite o valor de c :"))
 
 # o pyton suporta a equação de elevação nativamente ex: b**2
 
-delta = (b**2) -  (4 * a * c)
+# delta = (b**2) -  (4 * a * c)
 
-x1 = (-b + (delta**0.5)) / 2 * a
-x2 = (-b - (delta**0.5)) / 2 * a
-print ( "x1= ", x1, "x2= ", x2)
+# x1 = (-b + (delta**0.5)) / 2 * a
+# x2 = (-b - (delta**0.5)) / 2 * a
+# print ( "x1= ", x1, "x2= ", x2)
+
+Kilometros = float(input("quantos kilometros voce percorreu?"))
+Litros = float(input("quantos litros foram gastos?"))
+
+x1 = Kilometros / Litros
+
+print("seus litros gastos foram: ", Litros, "\n A distancia percorrida foi de :", Kilometros, "x1; ", x1)
+
 
 
 
